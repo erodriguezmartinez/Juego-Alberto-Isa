@@ -1,0 +1,172 @@
+/*Esperanza*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------------------------------*/
+/*
+body,header,footer{
+	width:100%;	Tamaño util
+}*/
+body
+{
+	background-color:#a4f3a1;
+	margin: 0 auto;	/*Centrar contenido*/
+	min-height:100vh;
+	position:relative;
+}
+header
+{
+	height:100px;
+	font-style:italic;
+	background-color:#3EDBBE;
+	font-family:Milasian Circa;
+	font-size:xxx-large;
+}
+header,footer
+{
+	text-align:center;
+}
+footer
+{
+	font-size:x-large;
+	height: 50px;
+	padding: 5px;
+	background-color:#E2E194;
+	clear:right
+
+}
+header,aside,footer,main,nav
+{
+	text-align:center;
+}
+main
+{
+	/* Tamaño útil del main calculado con respecto a 1300px de tamaño html (tamaño útil caja contenedora)*/
+	width:70%;	 /*Tamaño útil*/
+	margin: 20px auto;
+	float: right;
+	height: auto;
+}
+input,select{
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#solicitar
+{
+	width:25% ;	/*Tamaño útil*/
+	height:50px;
+	font-size: 1em;
+}
+
+/*-----TABLA-----*/
+table
+{
+	Border-collapse:collapse;
+	background-image:url(../imagenes/fondo1.jpg);
+	width:100%;	/*Tamaño ocupado por la tabla (todo el espacio útil del aside2*/
+	text-align:center;	
+	
+	border:2px solid black;
+}
+td,tr,th,table
+{
+	border:2px solid black;
+}
+
+td,tr,th
+{
+	/* Tamaño padding calculado con respecto a 1188px de tamaño del main (tamaño útil caja contenedora).8 más por bordes*/
+	padding:0.8417%;	/*Margen del espacio útil al borde del contenedor*/
+}
+th
+{
+	font-weight:bold;
+}
+td{
+	width: 20%;
+}
+td a,th
+{
+	font-size:large;
+}
+section{
+	padding: 2%;
+	float: right;
+}
+section a {
+	background: #C9FAC7;
+	background-image: -webkit-linear-gradient(top, #3EDBBE, #3EDBBE);
+	background-image: -moz-linear-gradient(top, #3EDBBE, #3EDBBE);
+	background-image: -ms-linear-gradient(top, #3EDBBE, #3EDBBE);
+	background-image: -o-linear-gradient(top, #3EDBBE, #3EDBBE);
+	background-image: linear-gradient(to bottom, #3EDBBE, #3EDBBE);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+  }
+  
+section a:hover {
+	background: #C9FAC7;
+	background-image: -webkit-linear-gradient(top, #E2E194, #E2E194);
+	background-image: -moz-linear-gradient(top, #E2E194, #E2E194);
+	background-image: -ms-linear-gradient(top, #E2E194, #E2E194);
+	background-image: -o-linear-gradient(top, #E2E194, #E2E194);
+	background-image: linear-gradient(to bottom, #E2E194, #E2E194);
+	text-decoration: none;
+  }
+
+a img{
+	width: 10%;
+	height: 10%;
+}

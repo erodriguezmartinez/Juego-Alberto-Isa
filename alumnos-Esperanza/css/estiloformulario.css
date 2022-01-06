@@ -1,0 +1,32 @@
+/*Esperanza Rodríguez Martínez*/
+
+input,select
+{
+	/* Tamaño del margin superior calculado con respecto a 822px de tamaño aside2 (tamaño útil caja contenedora)*/
+	margin-top:1.216%; /*Margen superior entre el borde del input hacia fuera*/ 
+	border:1px solid black;
+	font-size:large;
+	/* Tamaño útil calculado con respecto a 822px de tamaño aside2 (tamaño útil caja contenedora)*/
+	/*width:36.4963%;	Tamaño útil*/
+	width: 50%;
+	/* Tamaño del padding calculado con respecto a 822px de tamaño aside2 (tamaño útil caja contenedora)*/
+	padding:0.6082%;	/*Margen del espacio útil al borde del contenedor*/
+}
+form label,#solicitar
+{	
+	font-weight:bold;
+	font-size:x-large;
+}
+#solicitar
+{
+	/* Tamaño útil calculado con respecto a 822px de tamaño aside2 (tamaño útil caja contenedora)*/
+	width:24.3309% ;	/*Tamaño útil*/
+	height:50px;
+}
+main
+{
+	/* Tamaño del padding calculado con respecto a 1300px de tamaño html */
+	padding:0.7692%;	/*Margen del espacio útil al borde del contenedor*/
+	background-image:url(../imagenes/fondo.jpg);
+	overflow:hidden;	/*Para que se ajuste su altura al contenido */
+}
